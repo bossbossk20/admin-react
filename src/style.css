@@ -1,0 +1,36 @@
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+ul.topnav li {
+  float: left;
+}
+.selectLi {
+  display:inline;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 30px;
+}
+ul.topnav li .selectLi:hover {
+  background-color: white;
+  color: black;
+}
+ul.topnav li.icon {
+  display: none;
+}
+.logo {
+  display:inline;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 30px;
+  background-color: yellow;
+}
